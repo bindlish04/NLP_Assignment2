@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Generated at runtime (recreated when notebook runs)
+solution/outputs/
+
+# Large / optional local files
+*.html
+solution/scripts/
+
+# Assignment briefs (not needed to run the project)
+*.pdf
+*.docx
+
+# Hugging Face / model cache (downloaded on first run)
+.cache/
